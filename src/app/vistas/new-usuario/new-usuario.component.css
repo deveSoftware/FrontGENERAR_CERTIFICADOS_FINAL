@@ -1,0 +1,19 @@
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: cornflowerblue;
+    color: black;
+    border: 0 !important;
+}
