@@ -1,3 +1,14 @@
+html,
+body {
+    background-image: url(../../../assets/seello.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    font-family: 'Numans', sans-serif;
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
 .container {
     height: 100%;
     align-content: center;
@@ -5,15 +16,21 @@
 
 .card {
     height: 100%;
-    margin-top: 1%;
-    margin-bottom: auto;
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    width: 300px;
+    border: 2ch;
+    margin-left: 10%;
 }
 
-.input-group-prepend span {
-    width: 50px;
-    background-color: cornflowerblue;
+.btn:hover {
     color: black;
-    border: 0 !important;
+    background-color: rgb(32, 168, 168);
+    border-radius: 15px;
+}
+
+.btn {
+    margin-top: 5px;
+    color: black;
+    background-color: cornflowerblue;
+    margin-right: 25%;
+    width: 100%;
 }
