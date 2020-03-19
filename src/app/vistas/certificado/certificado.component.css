@@ -1,0 +1,7 @@
+.imagen {
+    background-image: url(../../../assets/CERTIFICADO.PNG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-left: 20%;
+}
