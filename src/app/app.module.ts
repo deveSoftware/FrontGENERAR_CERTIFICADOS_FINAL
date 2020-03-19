@@ -8,14 +8,16 @@ import { PaginaPrincipalComponent } from './vistas/pagina-principal/pagina-princ
 import { ServicioLoginService} from './servicios/servicio-login.service';//IMPORTAR EL SERVICIO DE LOGIN
 import {FormsModule} from '@angular/forms';
 import { NewUsuarioComponent } from './vistas/new-usuario/new-usuario.component';
-import { CertificadoComponent } from './vistas/certificado/certificado.component'; //IMPORTAR modulo para conectar componentes
+import { CertificadoComponent } from './vistas/certificado/certificado.component';
+import { NewCertificadoComponent } from './vistas/new-certificado/new-certificado.component'; //IMPORTAR modulo para conectar componentes
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     PaginaPrincipalComponent,
     NewUsuarioComponent,
-    CertificadoComponent
+    CertificadoComponent,
+    NewCertificadoComponent
   ],
   imports: [
     BrowserModule,
